@@ -11,6 +11,6 @@ services:
         - ./my-app:/usr/src/app/my-app
         - /usr/src/app/my-app/node_modules
     env_file:     
-    - .envcompose
-    environment:    #comment this if you want to env_file to be used
-    - REACT_APP_API_URL=netflix.com
+    - ./frontend/.envod
+    #environment:    #comment this if you want to env_file to be used
+    #- REACT_APP_API_URL=netflix.com
