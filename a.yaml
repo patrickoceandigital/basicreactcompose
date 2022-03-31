@@ -17,7 +17,7 @@ spec:
         image: patrickoceandigital/reactnginx
         imagePullPolicy: Always  
         ports:
-        - containerPort: 81
+        - containerPort: 80
       imagePullSecrets:
         - name: secretdockerhub
 
